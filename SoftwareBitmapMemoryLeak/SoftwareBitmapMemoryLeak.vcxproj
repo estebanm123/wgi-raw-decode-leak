@@ -150,6 +150,9 @@
     <Image Include="Assets\Square44x44Logo.targetsize-24_altform-unplated.png" />
     <Image Include="Assets\StoreLogo.png" />
     <Image Include="Assets\Wide310x150Logo.scale-200.png" />
+    <Image Include="SampleLargePngs\world.topo.bathy.200407.3x21600x21600.A22 - Copy - Copy (3) - Copy - Copy.png" />
+    <Image Include="SampleLargePngs\world.topo.bathy.200407.3x21600x21600.A22 - Copy - Copy (3) - Copy.png" />
+    <Image Include="SampleLargePngs\world.topo.bathy.200407.3x21600x21600.A22 - Copy - Copy - Copy - Copy.png" />
   </ItemGroup>
   <!--
     Defining the "Msix" ProjectCapability here allows the Single-project MSIX Packaging
@@ -167,11 +170,6 @@
       <FileType>Document</FileType>
     </Image>
     <Image Include="SampleRawFiles\Canon-5DMarkII-Shotkit-5 - Copy (4) - Copy.CR2">
-      <DeploymentContent Condition="'$(Configuration)|$(Platform)'=='Release|x64'">true</DeploymentContent>
-      <ExcludedFromBuild Condition="'$(Configuration)|$(Platform)'=='Release|x64'">false</ExcludedFromBuild>
-      <FileType>Document</FileType>
-    </Image>
-    <Image Include="SampleRawFiles\Leica_Q2_Shotkit-4-2 - Copy (4) - Copy.DNG">
       <DeploymentContent Condition="'$(Configuration)|$(Platform)'=='Release|x64'">true</DeploymentContent>
       <ExcludedFromBuild Condition="'$(Configuration)|$(Platform)'=='Release|x64'">false</ExcludedFromBuild>
       <FileType>Document</FileType>
