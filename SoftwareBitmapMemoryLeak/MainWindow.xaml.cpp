@@ -60,6 +60,6 @@ namespace winrt::SoftwareBitmapMemoryLeak::implementation
             }
         }
 
-        DescriptionText().Text(L"Decode test is finished. \nClick the button again and you should see the memory permanently increase with each subsequent run.");
+        DescriptionText().Text(L"Decode test is finished. The process memory should settle after a few seconds. \nClick the button again and you should see the process memory permanently increase with each subsequent run.");
     }
 }

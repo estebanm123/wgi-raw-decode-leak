@@ -41,14 +41,8 @@
     <Image Include="SampleRawFiles\Canon-5DMarkII-Shotkit-3 - Copy - Copy (2).CR2">
       <Filter>SampleRawFiles</Filter>
     </Image>
-    <Image Include="SampleLargePngs\world.topo.bathy.200407.3x21600x21600.A22 - Copy - Copy - Copy - Copy.png">
-      <Filter>SampleLargePngs</Filter>
-    </Image>
-    <Image Include="SampleLargePngs\world.topo.bathy.200407.3x21600x21600.A22 - Copy - Copy (3) - Copy - Copy.png">
-      <Filter>SampleLargePngs</Filter>
-    </Image>
-    <Image Include="SampleLargePngs\world.topo.bathy.200407.3x21600x21600.A22 - Copy - Copy (3) - Copy.png">
-      <Filter>SampleLargePngs</Filter>
+    <Image Include="SampleRawFiles\Canon-5DMarkII-Shotkit-5 - Copy (4) - Copy.CR2">
+      <Filter>SampleRawFiles</Filter>
     </Image>
   </ItemGroup>
   <ItemGroup>
@@ -57,9 +51,6 @@
     </Filter>
     <Filter Include="SampleRawFiles">
       <UniqueIdentifier>{8e95356c-a887-4b85-8d35-d096844de442}</UniqueIdentifier>
-    </Filter>
-    <Filter Include="SampleLargePngs">
-      <UniqueIdentifier>{9f7288c7-e57b-40c3-83ef-0e36036765ed}</UniqueIdentifier>
     </Filter>
   </ItemGroup>
   <ItemGroup>
@@ -73,8 +64,5 @@
   </ItemGroup>
   <ItemGroup>
     <None Include="packages.config" />
-    <None Include="SampleRawFiles\Canon-5DMarkII-Shotkit-5 - Copy (4) - Copy.CR2">
-      <Filter>SampleRawFiles</Filter>
-    </None>
   </ItemGroup>
 </Project>
