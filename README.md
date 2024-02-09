@@ -1,5 +1,7 @@
 This is a sample app demonstrating a memory leak when CR2 files are decoded with the Windows::Graphics::Imaging::BitmapDecoder. Note this test app uses Windows App SDK/WinUI3.
 
+Check out MainWindow.xaml.cpp for the code producing the memory leak.
+
 ## Repro Instructions
 
 1. Clone the repo and open SoftwareBitmapMemoryLeak.sln.
